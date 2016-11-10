@@ -158,6 +158,7 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+(setenv "IPY_TEST_SIMPLE_PROMPT" "1")
 
 (provide 'init)
 
