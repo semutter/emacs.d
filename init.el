@@ -153,6 +153,13 @@
 ;;----------------------------------------------------------------------------
 (require 'init-locales)
 
+;;----------------------------------------------------------------------------
+;; add user custimoized setting
+;;----------------------------------------------------------------------------
+;;(add-to-list 'load-path "/home/fenghan/codes/ess-16.10/lisp/")
+;;(load "ess-site")
+
+
 (add-hook 'after-init-hook
           (lambda ()
             (message "init completed in %.2fms"
